@@ -1,0 +1,36 @@
+.indicator {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.small {
+    max-width: 150px;
+    width: 100%;
+    font-size: 15px;
+}
+
+.medium {
+    max-width: 200px;
+    width: 100%;
+    font-size: 20px;
+}
+
+.large {
+    max-width: 250px;
+    width: 100%;
+    font-size: 25px;
+}
+
+.circle {
+    border-radius: 50px;
+}
+
+.square {
+    border-radius: 0;
+}
+
+.normal {
+    border-radius: 15px;
+}
